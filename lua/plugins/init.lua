@@ -5,6 +5,13 @@ return {
     opts = require "configs.conform",
   },
 
+{
+  "neovim/nvim-lspconfig",
+   config = function()
+      require "configs.lspconfig"
+   end,
+},
+
   {
     "nvim-treesitter/nvim-treesitter",
     opts = {
@@ -15,6 +22,20 @@ return {
 
         "html",
         "css",
+        "javascript",
+        "typescript",
+        "json",
+        "json5",
+        "jsonc",
+
+        "go",
+        "gomod",
+        "gosum",
+        "gowork",
+        "yaml",
+
+        "rust",
+        "toml",
       },
     },
   },
