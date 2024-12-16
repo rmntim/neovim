@@ -5,12 +5,21 @@ return {
     opts = require "configs.conform",
   },
 
-{
-  "neovim/nvim-lspconfig",
-   config = function()
+  {
+    "neovim/nvim-lspconfig",
+    config = function()
       require "configs.lspconfig"
-   end,
-},
+    end,
+  },
+
+  {
+    "mfussenegger/nvim-lint",
+    enabled = true,
+    event = "VeryLazy",
+    config = function()
+      require "configs.lint"
+    end,
+  },
 
   {
     "nvim-treesitter/nvim-treesitter",
