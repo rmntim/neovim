@@ -6,6 +6,9 @@ local options = {
     css = { "prettier" },
 
     go = { "gofmt", "goimports" },
+
+    c = { "clang-format" },
+    cpp = { "clang-format" },
   },
 
   format_on_save = {

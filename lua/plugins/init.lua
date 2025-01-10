@@ -37,6 +37,11 @@ return {
         "json5",
         "jsonc",
 
+        "c",
+        "cpp",
+        "cmake",
+        "make",
+
         "go",
         "gomod",
         "gosum",
@@ -45,6 +50,8 @@ return {
 
         "rust",
         "toml",
+
+        "zig",
       },
     },
   },
