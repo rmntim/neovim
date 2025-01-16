@@ -52,6 +52,8 @@ return {
         "toml",
 
         "zig",
+
+        "swift",
       },
     },
   },

@@ -5,6 +5,8 @@ lint.linters_by_ft = {
 
   c = { "clangtidy" },
   cpp = { "clangtidy" },
+
+  swift = { "swiftlint" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
