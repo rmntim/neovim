@@ -51,8 +51,6 @@ return {
         "rust",
         "toml",
 
-        "zig",
-
         "swift",
       },
     },
