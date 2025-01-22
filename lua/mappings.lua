@@ -12,3 +12,6 @@ map("n", "<C-n>", "<cmd>NvimTreeFocus<CR>", { desc = "nvimtree focus window" })
 
 -- blame
 map("n", "<leader>gb", "<cmd>BlameToggle virtual<CR>", { desc = "git blame line" })
+
+-- todo
+map("n", "<leader>ft", "<cmd>TodoTelescope<CR>", { desc = "telescope find todos" })
