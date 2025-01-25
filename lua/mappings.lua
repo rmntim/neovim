@@ -15,3 +15,6 @@ map("n", "<leader>gb", "<cmd>BlameToggle virtual<CR>", { desc = "git blame line"
 
 -- todo
 map("n", "<leader>ft", "<cmd>TodoTelescope<CR>", { desc = "telescope find todos" })
+
+-- lsp
+map("n", "<leader>cf", vim.diagnostic.open_float, { desc = "floating diagnostic" })
