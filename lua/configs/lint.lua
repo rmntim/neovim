@@ -6,7 +6,10 @@ lint.linters_by_ft = {
   c = { "clangtidy" },
   cpp = { "clangtidy" },
 
-  swift = { "swiftlint" },
+  html = { "biome" },
+  css = { "biome" },
+  javascript = { "biome" },
+  typescript = { "biome" },
 }
 
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {

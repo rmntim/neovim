@@ -50,8 +50,6 @@ return {
 
         "rust",
         "toml",
-
-        "swift",
       },
     },
   },
