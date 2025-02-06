@@ -15,6 +15,8 @@ local options = {
 
     c = { "clang-format" },
     cpp = { "clang-format" },
+
+    gleam = { "gleam" },
   },
 
   format_on_save = {
