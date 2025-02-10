@@ -8,6 +8,7 @@ local servers = {
   "clangd",
   "vtsls",
   "gleam",
+  "zls",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"
