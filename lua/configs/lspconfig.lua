@@ -4,9 +4,12 @@ local lspconfig = require "lspconfig"
 
 local servers = {
   "gopls",
-  "rust_analyzer",
+
   "clangd",
-  "vtsls",
+
+  "rust_analyzer",
+
+  "sourcekit",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"
