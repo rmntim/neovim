@@ -10,6 +10,8 @@ local servers = {
   "rust_analyzer",
 
   "zls",
+
+  "hls",
 }
 
 local nvlsp = require "nvchad.configs.lspconfig"

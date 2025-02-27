@@ -8,6 +8,10 @@ local options = {
 
     c = { "clang-format" },
     cpp = { "clang-format" },
+
+    haskell = { "fourmolu" },
+
+    yaml = { "yamlfmt" },
   },
 
   format_on_save = {
