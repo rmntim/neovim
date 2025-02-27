@@ -33,6 +33,7 @@ return {
         "css",
         "javascript",
         "typescript",
+        "tsx",
         "json",
         "json5",
         "jsonc",
@@ -51,6 +52,8 @@ return {
         "rust",
         "toml",
         "zig",
+
+        "haskell",
       },
     },
   },

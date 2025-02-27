@@ -9,6 +9,8 @@ local servers = {
 
   "rust_analyzer",
 
+  "vtsls",
+
   "zls",
 
   "hls",

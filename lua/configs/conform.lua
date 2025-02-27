@@ -2,7 +2,12 @@ local options = {
   formatters_by_ft = {
     lua = { "stylua" },
 
-    json = { "prettier" },
+    html = { "biome" },
+    css = { "biome" },
+    javascript = { "biome", "biome-check", "biome-organize-imports" },
+    typescript = { "biome", "biome-check", "biome-organize-imports" },
+    tsx = { "biome", "biome-check", "biome-organize-imports" },
+    json = { "biome" },
 
     go = { "gofmt", "goimports" },
 
