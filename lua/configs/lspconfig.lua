@@ -12,8 +12,6 @@ local servers = {
   "vtsls",
   "eslint",
 
-  "zls",
-
   "hls",
 }
 

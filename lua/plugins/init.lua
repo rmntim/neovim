@@ -22,6 +22,34 @@ return {
   },
 
   {
+    "williamboman/mason-lspconfig.nvim",
+    opts = {
+      ensure_installed = {
+        "stylua",
+
+        "vtsls",
+        "prettierd",
+        "eslint-lsp",
+
+        "gopls",
+        "gofmt",
+        "goimports",
+        "golangci-lint",
+
+        "clangd",
+        "clang-format",
+
+        "rust-analyzer",
+
+        "hls",
+        "fourmolu",
+
+        "yamlfmt",
+      }
+    }
+  },
+
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -51,7 +79,6 @@ return {
 
         "rust",
         "toml",
-        "zig",
 
         "haskell",
       },
