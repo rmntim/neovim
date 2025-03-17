@@ -45,8 +45,8 @@ return {
         "fourmolu",
 
         "yamlfmt",
-      }
-    }
+      },
+    },
   },
 
   {
@@ -88,8 +88,21 @@ return {
   {
     "nvim-tree/nvim-tree.lua",
     opts = {
+      update_cwd = true,
+      update_focused_file = {
+        enable = true,
+        update_cwd = true,
+      },
       view = {
         side = "right",
+      },
+      git = {
+        enable = true,
+        ignore = false,
+        timeout = 500,
+      },
+      filters = {
+        dotfiles = false,
       },
     },
   },
@@ -98,7 +111,7 @@ return {
     "FabijanZulj/blame.nvim",
     lazy = false,
     config = function()
-      require('blame').setup {}
+      require("blame").setup {}
     end,
   },
 
@@ -149,7 +162,7 @@ return {
     -- setting the keybinding for LazyGit with 'keys' is recommended in
     -- order to load the plugin when the command is run for the first time
     keys = {
-      { "<leader>gg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
-    }
-  }
+      { "<leader>gg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
+    },
+  },
 }
